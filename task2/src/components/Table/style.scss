@@ -1,0 +1,14 @@
+.Table {
+  width: 80%;
+  margin: 0 auto;
+
+  &__head {
+    text-align: center;
+  }
+
+  &__headCol {
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+}

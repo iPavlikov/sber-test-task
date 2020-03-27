@@ -1,0 +1,24 @@
+.Container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  &._fluid {
+    max-width: 100%;
+  }
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Col {
+  flex: 1 1;
+}
+
+@for $i from 1 through 12 {
+  .Col_#{$i} {
+    flex-basis: #{100% / 12 * $i};
+  }
+}

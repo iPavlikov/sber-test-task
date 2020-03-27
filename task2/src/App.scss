@@ -1,0 +1,12 @@
+@import 'grid';
+
+.App {
+  min-height: 100vh;
+  background-color: lightblue;
+
+  &__content {
+    display: flex;
+    height: 100%;
+    padding: 40px 0;
+  }
+}
